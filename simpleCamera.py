@@ -15,7 +15,7 @@ def power_switch():
         turn_on = False
         power_switch_button.text = 'Turn On'        
     else:        
-        camera.start_preview()
+        camera.start_preview(alpha=200)
         turn_on = True
         power_switch_button.text = 'Turn Off'        
     
